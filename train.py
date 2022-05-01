@@ -9,7 +9,7 @@ actual = True
 if not (joke or actual):
     print('Either joke or actual has to be set to true, or else there will be no data!')
 
-char_lis = ['A']
+char_lis = ['A', 'ï', '»', '¿', '"', 'W', 'o', 'u', 'l', 'd', ' ', 'y', 'i', 'k', 'e', 'f', 'm', 't', '?', '\n', 'I', 'h', 'a', 'v', 'n', 'w', 'g', ',', 'b', "'", 'r', '.', '-', 'D', 'Y', 's', 'p', 'T', 'c', 'q', 'J', 'L', 'R', 'O', 'z', 'B', 'E', 'C', 'S', 'F', 'M', 'X', 'Z', 'G', 'H', 'j', 'P', 'N', 'K', 'V', 'x', ';', '!', 'U', ':', 'Q', '3', '/', ')', '*', '1', '2', '7', '%', '8', '0', '#', '(', '&'];
 text_data = []
 text_fil_act = open('SeniorQuotes.txt', 'r')
 text_fil_joke = open('JokeSeniorQuotes.txt', 'r')
